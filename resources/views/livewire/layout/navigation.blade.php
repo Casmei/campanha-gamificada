@@ -30,7 +30,7 @@ new class extends Component
 
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                    <x-nav-link :href="route('campanha.index')" :active="request()->routeIs('campanha')" wire:navigate>
+                    <x-nav-link :href="route('campanha.index')" :active="request()->routeIs('campanha.index')" wire:navigate>
                         {{ __('Campanha') }}
                     </x-nav-link>
                 </div>

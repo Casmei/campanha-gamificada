@@ -20,7 +20,7 @@ new #[Layout('layouts.guest')] class extends Component
 
         Session::regenerate();
 
-        $this->redirectIntended(default: route('campanha', absolute: false), navigate: true);
+        $this->redirectIntended(default: route('campanha.index', absolute: false), navigate: true);
     }
 }; ?>
 

@@ -32,7 +32,7 @@ class AuthenticationTest extends TestCase
 
         $component
             ->assertHasNoErrors()
-            ->assertRedirect(route('campanha', absolute: false));
+            ->assertRedirect(route('campanha.index', absolute: false));
 
         $this->assertAuthenticated();
     }
